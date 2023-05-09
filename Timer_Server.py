@@ -1,6 +1,7 @@
 import socket
 import threading
 import time
+#ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 
 class FocusTimer:
     def __init__(self, session_length, break_length):
